@@ -1,6 +1,6 @@
 # Marketing A/B Test Analysis
 
-An end-to-end data analytics pipeline analyzing the performance of a marketing ad campaign against a PSA control group — built with PostgreSQL, Excel Power Query, and Power BI.
+An end-to-end data analytics pipeline analyzing the performance of a marketing ad campaign against a PSA control group - built with PostgreSQL, Excel Power Query, and Power BI.
 
 ---
 
@@ -50,3 +50,18 @@ marketing-ab-test-project/
 
 - A custom Power Query column maps day names (Monday–Sunday) to sort values (1–7) to fix default alphabetical axis ordering.
 - Ad impressions are segmented into four frequency buckets: `1–5`, `6–15`, `16–30`, and `31+` for cohort-level analysis.
+
+---
+
+## Power BI Dashboard
+
+An executive-ready dashboard (`Marketing_AB_Test_Analysis.pbix`) translates the processed data pipeline into actionable business visuals:
+
+- A synchronized multi-line chart comparing daily performance tracking metrics across the treatment and control groups       simultaneously.
+- High-level modern KPI indicator cards providing an instantaneous look at experiment volume scales.
+- Structured coordinate charts displaying overall treatment-vs-control lift summaries.
+
+### Dashboard Preview
+
+![Dashboard Preview](images/dashboard_preview.png)
+
